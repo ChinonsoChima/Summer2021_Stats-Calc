@@ -9,7 +9,7 @@ class Operations:
 
     @staticmethod
     def subtraction(a, b):
-        return float(b) - float(a)
+        return float(a) - float(b)
 
     @staticmethod
     def multiplication(a, b):
@@ -18,7 +18,7 @@ class Operations:
     @staticmethod
     def division(a, b):
         try:
-            return round(float(b) / float(a), 9)
+            return round(float(a) / float(b), 9)
         except ZeroDivisionError:
             return "Error: can't divide by zero"
 
