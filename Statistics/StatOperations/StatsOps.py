@@ -13,7 +13,7 @@ class StatsOps:
         try:
             data_len = len(data)
             total = sum(data)
-            return float(Operations.division(data_len, total))
+            return float(Operations.division(total, data_len))
         except ZeroDivisionError:
             return "Error: Can't Divide by zero"
         except TypeError:
@@ -76,7 +76,7 @@ class StatsOps:
             for num in data:
                 x = x + Operations.square(num - data_mean)
 
-            return float(Operations.division(len(data), x))
+            return float(Operations.division(x, len(data)))
 
         except ZeroDivisionError:
             return "Error: Can't Divide by zero"
