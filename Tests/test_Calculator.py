@@ -40,7 +40,7 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.result, result)
 
     def test_divide_method_for_zero_calculator(self):
-        self.assertEqual(self.calculator.divide(0, 10), "Error: can't divide by zero")
+        self.assertEqual(self.calculator.divide(10, 0), "Error: can't divide by zero")
         self.assertEqual(self.calculator.result, "Error: can't divide by zero")
 
     def test_square_method_calculator(self):
