@@ -1,5 +1,7 @@
 # Summer2021_Stats-Calc
 
+[![Build Status](https://travis-ci.com/ChinonsoChima/Summer2021_Stats-Calc.svg?branch=main)](https://travis-ci.com/ChinonsoChima/Summer2021_Stats-Calc)
+
 Basic Calculator functions:
 * Addition
 * Subtraction
